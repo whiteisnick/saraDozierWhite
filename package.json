@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/whiteisnick/SaraDozierWhite/issues"
   },
-  "homepage": "https://github.com/whiteisnick/SaraDozierWhite"
+  "homepage": "https://github.com/whiteisnick/SaraDozierWhite",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
 }
