@@ -1,3 +1,5 @@
-body {
-	background: #999999;
-};
+.page-header {
+	background-color: #999999;
+	margin-top: 0;
+	padding-top: 1px;
+}
