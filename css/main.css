@@ -1,21 +1,13 @@
+.page-footer {
+	background-color: #9999dd;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	text-align: center;
+}
 .page-header {
 	background-color: #9999cc;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 1px;
 	padding-left: 20px;
-}
-.bio {
-	background-color: #5566aa;
-	height: 100%;
-}
-.samples {
-	background-color: #5555aa;
-	height: 100%;
-}
-.page-footer {
-	background-color: #9999dd;
-	padding-top: 10px;
-	padding-bottom: 1px;
-	text-align: center;
 }
