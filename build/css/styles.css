@@ -11,12 +11,25 @@
 	padding-top: 1px;
 	padding-left: 20px;
 }
-
 .bio {
 	background-color: #5566aa;
 	height: 100%;
 }
-
+.bio-bottom {
+	height: 10%;
+}
+.bio-pic {
+	background-color: #99ddbb;
+	height: 45%;
+}
+.bio-text {
+	background-color: #99bbdd;
+	height: 40%;
+	padding: 5%;
+}
+.bio-top {
+	height: 5%;
+}
 button {
 	height: 50px;
 	width: 70px;
