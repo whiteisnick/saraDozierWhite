@@ -9,6 +9,9 @@ button {
 	background-color: #5555aa;
 	height: 100%;
 }
+.samples-top {
+	height: 5%;
+}
 .triangleLeft {
 	width: 0;
 	height: 0;
