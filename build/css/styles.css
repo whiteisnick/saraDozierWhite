@@ -56,19 +56,3 @@ button {
 .samples-top {
 	height: 10%;
 }
-.triangleLeft {
-	width: 0;
-	height: 0;
-	border-top: 5px solid transparent;
-	border-right: 10px solid black;
-	border-bottom: 5px solid transparent;
-	margin: 10px 20px;
-}
-.triangleRight {
-	width: 0;
-	height: 0;
-	border-top: 5px solid transparent;
-	border-left: 10px solid black;
-	border-bottom: 5px solid transparent;
-	margin: 10px 20px;
-}
