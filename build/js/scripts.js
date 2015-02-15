@@ -7,8 +7,14 @@ $(document).ready(function(){
 			$('.samples-photo').toggle();
 			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
 			$('.samples-photo').fadeToggle(1000);
-			return(currentSample)
-		}
+			return(currentSample);
+		}else {
+			currentSample = 3;
+			$('.samples-photo').toggle();
+			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
+			$('.samples-photo').fadeToggle(1000);
+			return(currentSample);
+		};
 	});
 	$('#fwd').on('click', function() {
 		if (currentSample < 3) {
@@ -16,8 +22,14 @@ $(document).ready(function(){
 			$('.samples-photo').toggle();
 			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
 			$('.samples-photo').fadeToggle(1000);
-			return(currentSample)
-		}
+			return(currentSample);
+		}else {
+			currentSample = 1;
+			$('.samples-photo').toggle();
+			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
+			$('.samples-photo').fadeToggle(1000);
+			return(currentSample);
+		};
 	});
 	
 });
