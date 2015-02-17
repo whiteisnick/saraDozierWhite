@@ -4,30 +4,30 @@ $(document).ready(function(){
 	$('#back').on('click', function() {
 		if (currentSample > 1) {
 			currentSample = currentSample - 1;
-			$('.samples-photo').toggle();
-			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
-			$('.samples-photo').fadeToggle(1000);
+			$('#sample').toggle();
+			$('#sample').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
+			$('#sample').fadeToggle(700);
 			return(currentSample);
 		}else {
 			currentSample = 3;
-			$('.samples-photo').toggle();
-			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
-			$('.samples-photo').fadeToggle(1000);
+			$('#sample').toggle();
+			$('#sample').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
+			$('#sample').fadeToggle(700);
 			return(currentSample);
 		};
 	});
-	$('#fwd').on('click', function() {
+	$('#next').on('click', function() {
 		if (currentSample < 3) {
 			currentSample = currentSample + 1;
-			$('.samples-photo').toggle();
-			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
-			$('.samples-photo').fadeToggle(1000);
+			$('#sample').toggle();
+			$('#sample').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
+			$('#sample').fadeToggle(700);
 			return(currentSample);
 		}else {
 			currentSample = 1;
-			$('.samples-photo').toggle();
-			$('.samples-photo').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
-			$('.samples-photo').fadeToggle(1000);
+			$('#sample').toggle();
+			$('#sample').html('<img class="img-responsive-height" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
+			$('#sample').fadeToggle(700);
 			return(currentSample);
 		};
 	});

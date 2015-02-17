@@ -1,18 +1,26 @@
 .bio {
-	background-color: #5566aa;
+	/*background-color: #9999aa;*/
 	height: 100%;
 }
 .bio-bottom {
-	height: 10%;
+	height: 5%;
+}
+.bio-middle {
+	height: 5%;
 }
 .bio-pic {
-	background-color: transparent;
-	height: 45%;
+	background-color: #8DB7C7;
+	
+	border: 10px solid #8DB7C7;
+	border-radius: 10px;
 }
 .bio-text {
-	background-color: #99bbdd;
+	background-color: #8DB7C7;
+	color: #385561;
 	height: 40%;
 	padding: 5%;
+	border: 20px solid #8DB7C7;
+	border-radius: 10px;
 }
 .bio-top {
 	height: 5%;

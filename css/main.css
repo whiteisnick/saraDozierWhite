@@ -1,13 +1,18 @@
+body {
+	background-color: #97CADE;
+}
 .page-footer {
-	background-color: #9999dd;
+	background-color: #8DB7C7;
+	color: #385561;
 	padding-top: 10px;
 	padding-bottom: 1px;
 	text-align: center;
 }
 .page-header {
-	background-color: #9999cc;
+	background-color: #8DB7C7;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 1px;
 	padding-left: 20px;
+	color: #385561;
 }

@@ -1,31 +1,44 @@
+body {
+	background-color: #97CADE;
+}
 .page-footer {
-	background-color: #9999dd;
+	background-color: #8DB7C7;
+	color: #385561;
 	padding-top: 10px;
 	padding-bottom: 1px;
 	text-align: center;
 }
 .page-header {
-	background-color: #9999cc;
+	background-color: #8DB7C7;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 1px;
 	padding-left: 20px;
+	color: #385561;
 }
 .bio {
-	background-color: #5566aa;
+	/*background-color: #9999aa;*/
 	height: 100%;
 }
 .bio-bottom {
-	height: 10%;
+	height: 5%;
+}
+.bio-middle {
+	height: 5%;
 }
 .bio-pic {
-	background-color: transparent;
-	height: 45%;
+	background-color: #8DB7C7;
+	
+	border: 10px solid #8DB7C7;
+	border-radius: 10px;
 }
 .bio-text {
-	background-color: #99bbdd;
+	background-color: #8DB7C7;
+	color: #385561;
 	height: 40%;
 	padding: 5%;
+	border: 20px solid #8DB7C7;
+	border-radius: 10px;
 }
 .bio-top {
 	height: 5%;
@@ -42,7 +55,7 @@ button {
 	width: auto;
 }
 .samples {
-	background-color: #5555aa;
+	/*background-color: #95c8dc;*/
 	height: 100%;
 }
 .samples-buttons {
@@ -50,8 +63,11 @@ button {
 	padding: 5%;
 }
 .samples-photo {
-	height: 75%;
+	background-color: #8DB7C7;
+	/*height: 75%;*/
 	text-align: center;
+	border: 20px solid #8DB7C7;
+	border-radius: 10px;
 }
 .samples-top {
 	height: 10%;

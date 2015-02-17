@@ -10,7 +10,7 @@ button {
 	width: auto;
 }
 .samples {
-	background-color: #5555aa;
+	/*background-color: #95c8dc;*/
 	height: 100%;
 }
 .samples-buttons {
@@ -18,8 +18,11 @@ button {
 	padding: 5%;
 }
 .samples-photo {
-	height: 75%;
+	background-color: #8DB7C7;
+	/*height: 75%;*/
 	text-align: center;
+	border: 20px solid #8DB7C7;
+	border-radius: 10px;
 }
 .samples-top {
 	height: 10%;
