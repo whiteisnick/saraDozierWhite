@@ -1,6 +1,9 @@
 body {
 	background-color: #97CADE;
 }
+p {
+	font-size: 2.15vmin;
+}
 .page-footer {
 	background-color: #8DB7C7;
 	color: #385561;
@@ -24,7 +27,7 @@ body {
 	height: 5%;
 }
 .bio-middle {
-	height: 5%;
+	height: 2%;
 }
 .bio-pic {
 	background-color: #8DB7C7;
@@ -35,8 +38,8 @@ body {
 .bio-text {
 	background-color: #8DB7C7;
 	color: #385561;
-	height: 40%;
-	padding: 5%;
+	height: 45%;
+	padding: 0 5% 5% 5%;
 	border: 20px solid #8DB7C7;
 	border-radius: 10px;
 }
@@ -44,8 +47,7 @@ body {
 	height: 5%;
 }
 button {
-	height: 5%;
-	width: 70px;
+	width: 16%;
 	margin: 0 2%;
 }
 .img-responsive-height {

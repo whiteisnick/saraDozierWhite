@@ -1,6 +1,9 @@
 body {
 	background-color: #97CADE;
 }
+p {
+	font-size: 2.15vmin;
+}
 .page-footer {
 	background-color: #8DB7C7;
 	color: #385561;
