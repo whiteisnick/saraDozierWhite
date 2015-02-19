@@ -1,6 +1,9 @@
 body {
 	background-color: #97CADE;
 }
+.container-fluid {
+	margin: 0 2%;
+}
 p {
 	font-size: 2.15vmin;
 }
