@@ -24,7 +24,7 @@ p {
 }
 .bio {
 	/*background-color: #9999aa;*/
-	height: 100%;
+	/*height: 100%;*/
 }
 .bio-bottom {
 	height: 5%;
@@ -39,12 +39,11 @@ p {
 	border-radius: 10px;
 }
 .bio-text {
-	background-color: #8DB7C7;
+	background-color: #daefff;
 	color: #385561;
-	height: 45%;
-	padding: 0 5% 5% 5%;
-	border: 20px solid #8DB7C7;
-	border-radius: 10px;
+	padding: 3% 3% 3% 3%;
+	border: 10px solid #8DB7C7;
+	border-radius: 10px; 
 }
 .bio-top {
 	height: 5%;
@@ -53,15 +52,9 @@ button {
 	width: 16%;
 	margin: 0 2%;
 }
-.img-responsive-height {
-	max-height: 100%;
-	max-width: 100%;
-	height: auto;
-	width: auto;
-}
 .samples {
 	/*background-color: #95c8dc;*/
-	height: 100%;
+	/*height: 100%;*/
 }
 .samples-buttons {
 	text-align: center;
@@ -69,7 +62,6 @@ button {
 }
 .samples-photo {
 	background-color: #8DB7C7;
-	/*height: 75%;*/
 	text-align: center;
 	border: 20px solid #8DB7C7;
 	border-radius: 10px;

@@ -2,15 +2,9 @@ button {
 	width: 16%;
 	margin: 0 2%;
 }
-.img-responsive-height {
-	max-height: 100%;
-	max-width: 100%;
-	height: auto;
-	width: auto;
-}
 .samples {
 	/*background-color: #95c8dc;*/
-	height: 100%;
+	/*height: 100%;*/
 }
 .samples-buttons {
 	text-align: center;
@@ -18,7 +12,6 @@ button {
 }
 .samples-photo {
 	background-color: #8DB7C7;
-	/*height: 75%;*/
 	text-align: center;
 	border: 20px solid #8DB7C7;
 	border-radius: 10px;

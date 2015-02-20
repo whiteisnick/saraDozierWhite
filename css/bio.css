@@ -1,6 +1,6 @@
 .bio {
 	/*background-color: #9999aa;*/
-	height: 100%;
+	/*height: 100%;*/
 }
 .bio-bottom {
 	height: 5%;
@@ -15,12 +15,11 @@
 	border-radius: 10px;
 }
 .bio-text {
-	background-color: #8DB7C7;
+	background-color: #daefff;
 	color: #385561;
-	height: 45%;
-	padding: 0 5% 5% 5%;
-	border: 20px solid #8DB7C7;
-	border-radius: 10px;
+	padding: 3% 3% 3% 3%;
+	border: 10px solid #8DB7C7;
+	border-radius: 10px; 
 }
 .bio-top {
 	height: 5%;
