@@ -24,7 +24,7 @@ $(document).ready(function(){
 				$('.samples-photo').fadeToggle(700);
 			};
 		} else {
-			currentSample = 6;
+			currentSample = 7;
 			$('.samples-photo').toggle();
 			$('.samples-photo').removeClass('col-xs-12 col-xs-offset-0').addClass('col-xs-8 col-xs-offset-2');
 			$('#sample').html('<img class="img-responsive img-rounded" src="images/sample' + currentSample + '.jpg" alt="Responsive image">');
@@ -33,7 +33,7 @@ $(document).ready(function(){
 		};
 	});
 	$('#next').on('click', function() {
-		if (currentSample < 6) {
+		if (currentSample < 7) {
 			if ((currentSample === 1) || (currentSample === 4)) {
 				currentSample = currentSample + 1;
 				$('.samples-photo').toggle();
@@ -63,5 +63,5 @@ $(document).ready(function(){
 			return(currentSample);
 		};
 	});
-	
+
 });
